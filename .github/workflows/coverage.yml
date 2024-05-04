@@ -62,7 +62,7 @@ jobs:
           issue-number: ${{ github.event.pull_request.number }}
           body: |
             <details>
-              <summary>Coverage</summary>
+              <summary>Coverage Results</summary>
 
               ```bash
               ${{ steps.coverage-summary.outputs.COVERAGE_SUMMARY_OUTPUT }}
