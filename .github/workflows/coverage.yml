@@ -25,6 +25,7 @@ jobs:
           {
             echo 'COVERAGE_SUMMARY_OUTPUT<<EOF'
             echo "coverage summary"
+            echo $(date)
             echo EOF
           } >> "$GITHUB_OUTPUT"
 
